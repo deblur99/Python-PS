@@ -53,7 +53,8 @@ for i in range(len(table)):
       if table[i][j] != 0:
         if status[table[i][j]] == 0:
           status[table[i][j]] = -1
-        if status[table[i][j]] == 0
+        if status[table[i][j]] == 0:
+          pass
         
     
     
