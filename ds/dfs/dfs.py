@@ -2,7 +2,7 @@ import random
 
 
 def generate_test_case():
-    N = random.randint(1, 10)
+    N = random.randint(1, 1000)
     M = random.randint(0, N * (N - 1) / 2)
 
     edges = []
