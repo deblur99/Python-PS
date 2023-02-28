@@ -1,8 +1,11 @@
 import random
 
 
-def generate_test_case():
-    N = random.randint(1, 1000)
+def generate_test_case(v_count: int):
+    if v_count < 1:
+        return
+
+    N = random.randint(1, v_count)
     M = random.randint(0, N * (N - 1) / 2)
 
     edges = []
