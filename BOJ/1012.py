@@ -1,5 +1,6 @@
 import sys
-sys.setrecursionlimit(10**7)    # 이거 안하면 RecursionError 뜸. 재귀호출 최대치 높여줘야 ㅎ마
+
+sys.setrecursionlimit(10 ** 7)  # 이거 안하면 RecursionError 뜸. 재귀호출 최대치 높여줘야 ㅎ마
 input = sys.stdin.readline
 
 
@@ -41,7 +42,6 @@ for _ in range(T):
 # 결과값 여러개면 테케 처리할 때마다 리스트에 넣어두고 한꺼번에 출력
 for answer in answers:
     print(answer)
-
 
 # 반례 (오른쪽, 아래쪽만 가는 case에 십자모양을 넣어보았다)
 '''
