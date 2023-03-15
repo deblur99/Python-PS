@@ -118,7 +118,7 @@ for i in range(N):
 # 한 번 정해지면 그대로 간다.
 
 # 1) 배열 전체를 순회해서 숫자 합이 제일 큰 순서를 내림차순으로 순서 정하기
-val_table = {}
+val_table = {} #
 
 for i in range(1, 10):
     val_table[i] = 0
